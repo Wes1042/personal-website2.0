@@ -1,0 +1,372 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+  }
+  
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  .bgimg-1 {
+    background-image: url("/photos/Aesthetic1.jpg");
+    min-height: 100%;
+    opacity: .8;
+  }
+  
+  .bgimg-2 {
+    background-image: url("/photos/theBoys.JPG");
+    min-height: 100%;
+    opacity: 0.69;
+  }
+  
+  .bgimg-3 {
+    background-image: url("/photos/future.jpg");
+    min-height: 400px;
+    opacity: 0.9;
+  }
+  
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+  
+  .caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 38px;
+    font-size: 35px;
+    letter-spacing: 10px;
+  }
+  
+  
+.text-box{
+
+    
+    margin-right: 3px;
+  text-align: center;
+  
+  }
+
+  h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: black;
+  }
+  
+  #philosophy h3{
+color:white;
+
+  }
+  #goals h3{
+    color:white;
+  
+      }
+
+  /* Turn off parallax scrolling for tablets and phones */
+  @media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: scroll;
+    }
+  }
+
+  .navbar{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
+  .tablink {
+    background-color:black;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+    display: block;
+    
+    
+    ;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+    /* padding: 100px 20px; */
+    height: 100%;
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+  }
+  .tabcontent1 {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+  }
+  @-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  #about.tabcontent{
+    padding-top: 47px;
+
+  }
+  #work.tabcontent{
+    padding-top: 47px;
+
+  }
+  
+  
+  #skills.tabcontent{
+    padding-top: 47px;
+  }
+  
+  /* //////////////////////////////////////////////////////////////////////
+  /* ////////////////////////////////////////////////////////////////////////////// */
+  /* ////////////////////////////////////////////////////////////////////////////// */
+  /* ///////////////////////////////////////////////////////////////////////// */
+  /* //////////////////////////////////////////////////////////////////
+  .parallax {
+  /* The image used */
+  .parallax {
+  background-image: url("https://www.centripetalnetworks.com/hubfs/Blog_security.png");
+
+  /* Set a specific height */
+  min-height: 100%; 
+/* opacity: 0.8; */
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+  /* The grid: Four equal columns that floats next to each other */
+.container{
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+/* text-align: center; */
+
+
+}
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 350px;
+    height: 300px;
+    padding: 20px;
+   
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 100%;
+    /* height: auto; */
+  }
+  
+  div.desc {
+    padding: 5px;
+    text-align: center;
+    bottom: 90;
+    background-color: white;
+    color: black;
+    
+  }
+
+#work-text h3{
+text-align: center;
+
+}
+
+
+
+
+.parallax1 {
+  background-image: url("https://www.silicon.co.uk/wp-content/uploads/2016/03/skills.jpg");
+opacity: 0.7;
+  /* Set a specific height */
+  min-height: 100%; 
+/* opacity: 0.8; */
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3 {
+  background-image: url("https://blog.shawacademy.com/wp-content/uploads/2016/08/shutterstock_136728851.jpg");
+opacity: 0.7;
+  /* Set a specific height */
+  min-height: 100%; 
+/* opacity: 0.8; */
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+  div.text{
+    position: relative; 
+    text-align: center;
+    bottom: 70px;
+    
+        color: #000;
+    
+
+
+  }
+.container2{
+
+  width: 100%;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+
+}
+  div.bag{
+height: 500px;
+    width:500px;
+    display: flex;
+    align-self: flex-end;
+    border: solid white;
+    justify-content:flex-end;;
+
+
+  }
+
+  .parallax2 {
+    background-image: url("https://jnswire.s3.amazonaws.com/jns-media/3c/e0/519124/Boxing1000.jpg");
+  opacity: 0.7;
+    /* Set a specific height */
+    min-height: 100%; 
+  /* opacity: 0.8; */
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+/* //////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////// */
+
+
+.tabcontent2 {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+
+#Contact{
+  background-image: url("/photos/coffe.jpg");
+  padding-top: 47px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.rat{
+
+  padding: 30px;
+  font-family: 'Lora', serif;
+  font-size: 15px;
+  border: solid white;
+  background-color :rgb(0,0,0,.6);
+  margin-right: 3px;
+text-align: center;
+height: 70%;
+margin-top: 60px;
+
+
+
+}
+
+#cat{
+
+
+  padding: 30px;
+  font-family: 'Lora', serif;
+  font-size: 15px;
+  border: solid white;
+  background-color :rgb(0,0,0,.6);
+  margin-right: 3px;
+text-align: center;
+justify-content: center;
+height: 85%;
+
+}
+#cat h3{
+    color: #ccc;
+
+
+
+
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
