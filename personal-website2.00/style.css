@@ -347,7 +347,7 @@ height: 500px;
 
 
 #Contact{
-  background-image: url("/personal-website2.00/photos/coffe.jpg");
+  background-image: url("../personal-website2.00/photos/coffe.jpg");
   padding-top: 47px;
   background-size: cover;
   background-repeat: no-repeat;
