@@ -15,19 +15,19 @@ body, html {
   
   }
   .bgimg-1 {
-    background-image: url("/photos/Aesthetic1.jpg");
+    background-image: url("/personal-website2.00/photos/Aesthetic1.jpg");
     min-height: 100%;
     opacity: .8;
   }
   
   .bgimg-2 {
-    background-image: url("/photos/theBoys.JPG");
+    background-image: url("/personal-website2.00/photos/theBoys.JPG");
     min-height: 100%;
     opacity: 0.69;
   }
   
   .bgimg-3 {
-    background-image: url("/photos/future.jpg");
+    background-image: url("/personal-website2.00/photos/future.jpg");
     min-height: 400px;
     opacity: 0.9;
   }
@@ -347,7 +347,7 @@ height: 500px;
 
 
 #Contact{
-  background-image: url("/photos/coffe.jpg");
+  background-image: url("/personal-website2.00/photos/coffe.jpg");
   padding-top: 47px;
   background-size: cover;
   background-repeat: no-repeat;
